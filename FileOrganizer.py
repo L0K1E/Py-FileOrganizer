@@ -37,7 +37,7 @@ class FileOrganizer:
             else:
                 pass
 
-    def Organiser(file, file_ext):
+    def Organizer(file, file_ext):
         Path = FileOrganizer.FileChecker(file_ext)
         if os.path.exists(Path):
             print("path exists")
@@ -61,6 +61,6 @@ try:
                 continue
             else:
                 print(f'{filename}.{file_ext}')
-                FileOrganizer.Organiser(file, file_ext)
+                FileOrganizer.Organizer(file, file_ext)
 except OSError as error:
     print(error)
