@@ -1,4 +1,2 @@
 # Py-FileOrganizer
-Building up an simple python file organizer. 
-This file will read the files in the current folder and separate them by their file extension and move them to thier respective folders. 
-if the folder isn't exist it will automatically create a new folder and move the file
+Say goodbye to cluttered and disorganized directories, and hello to a clean and efficient file system. The ultimate tool for keeping your files organized and easy to find. With this script, you can easily sort your files into their respective folders based on their file extension.
